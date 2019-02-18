@@ -73,7 +73,7 @@
 				"cloudformation:CreateChangeSet"
 			],
 			"Resource": [
-				"arn:aws:cloudformation:us-east-2:aws:transform/Serverless-2016-10-31"
+				"arn:aws:cloudformation:us-east-1:aws:transform/Serverless-2016-10-31"
 			],
 			"Effect": "Allow"
 		},
@@ -84,7 +84,7 @@
 				"codedeploy:RegisterApplicationRevision"
 			],
 			"Resource": [
-				"arn:aws:codedeploy:us-east-2:670171121955:application:*"
+				"arn:aws:codedeploy:us-east-1:670171121955:application:*"
 			],
 			"Effect": "Allow"
 		},
@@ -95,7 +95,7 @@
 				"codedeploy:GetDeployment"
 			],
 			"Resource": [
-				"arn:aws:codedeploy:us-east-2:670171121955:deploymentgroup:*"
+				"arn:aws:codedeploy:us-east-1:670171121955:deploymentgroup:*"
 			],
 			"Effect": "Allow"
 		},
@@ -104,7 +104,7 @@
 				"codedeploy:GetDeploymentConfig"
 			],
 			"Resource": [
-				"arn:aws:codedeploy:us-east-2:670171121955:deploymentconfig:*"
+				"arn:aws:codedeploy:us-east-1:670171121955:deploymentconfig:*"
 			],
 			"Effect": "Allow"
 		}
