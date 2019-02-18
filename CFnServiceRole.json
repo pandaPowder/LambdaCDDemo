@@ -23,7 +23,7 @@
 				"lambda:*"
 			],
 			"Resource": [
-				"arn:aws:lambda:us-east-2:670171121955:function:*"
+				"arn:aws:lambda:us-east-1:670171121955:function:*"
 			],
 			"Effect": "Allow"
 		},
@@ -32,7 +32,7 @@
 				"apigateway:*"
 			],
 			"Resource": [
-				"arn:aws:apigateway:us-east-2::*"
+				"arn:aws:apigateway:us-east-1::*"
 			],
 			"Effect": "Allow"
 		},
